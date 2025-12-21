@@ -29,6 +29,8 @@ We open-sourced our models, data, and code here.
 
 **Updates:**
 
+* **2025-12**: We’re excited to introduce **MedVLSynther** (https://github.com/UCSC-VLAA/MedVLSynther), a rubric-guided **generator–verifier** framework that synthesizes high-quality **multiple-choice medical VQA** items directly from open biomedical literature by grounding on figures, captions, and in-text references. Built from PubMed Central, it releases **MedSynVQA** (13,087 audited questions over 14,803 images across 13 imaging modalities and 28 anatomical regions), and provides a complementary data-generation pipeline you can pair with MedVLThinker’s open training recipes (SFT/RLVR) for reasoning-centric medical vision-language modeling.
+* **2025-08**: We’re excited to highlight **MedVLThinker** (https://github.com/UCSC-VLAA/MedVLThinker), an open-source recipe for building **reasoning-centric medical vision-language models**. It packages cleaned text-only and/or image-text datasets, a difficulty-aware data-curation pipeline, and two turnkey training modes (**SFT** or **RLVR**) to reproduce and extend strong baselines across six public medical-VQA benchmarks; scaling the same recipe from **3B → 32B** shows an open 32B model can reach **GPT-4o-level accuracy** while remaining transparent and reproducible.
 * 2025-03: We release our code, data, models, and paper!
 
 ****************************************************************
